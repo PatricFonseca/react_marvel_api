@@ -1,0 +1,28 @@
+.item {
+    width: 320px;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+.item__image img {
+    width: 300px;
+    height: 450px;
+}
+.item__content {
+    text-align: left;
+}
+.item__title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.item__modified {
+    font-size: 12px;
+}
+.item__description {
+    text-align: justify;
+    width: 270px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+}
